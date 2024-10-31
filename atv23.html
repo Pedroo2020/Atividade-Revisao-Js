@@ -7,13 +7,13 @@
 
     <script>
 
-        let numero = prompt("Digite um número entre 10 e 20: ")
+        let soma = 0
 
-        if(numero >= 10 && numero <= 20){
-            alert("O númeor está entre 10 e 20")
-        } else {
-            alert("O número não está entre 10 e 20")
+        for(let i = 1; i <= 100; i++){
+            soma += i
         }
+
+        alert("A soma dos números de 1 a 100 é: " + soma)
 
     </script>
 

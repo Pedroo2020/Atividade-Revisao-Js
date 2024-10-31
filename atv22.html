@@ -7,12 +7,11 @@
 
     <script>
 
-        let numero = prompt("Digite um número entre 10 e 20: ")
+        let numero = 5
+        alert("Tabuada do " + numero + ": ")
 
-        if(numero >= 10 && numero <= 20){
-            alert("O númeor está entre 10 e 20")
-        } else {
-            alert("O número não está entre 10 e 20")
+        for(let i = 1; i <= 10; i++){
+            alert(numero + " x " + i + " = " + (numero * i))
         }
 
     </script>
