@@ -7,7 +7,30 @@
 
     <script>
 
-        
+        function primo(numero){
+
+            if(numero <= 1){
+                return false
+            }
+
+            for(let i = 2; i < numero; i++){
+                if (numero % i === 0){
+                    return false
+                }
+            }
+
+            return true
+
+        }
+
+        var numero = 15
+        if (primo(numero)){
+            alert(numero + " é um número primo")
+        }else {
+            alert(numero + " não é um número primo")
+        }
+
+
 
     </script>
 
