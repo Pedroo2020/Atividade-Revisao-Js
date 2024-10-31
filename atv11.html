@@ -7,11 +7,13 @@
 
     <script>
 
-        var num1 = 5
-        var num2 = 5
-
-        var soma = num1 + num2
-        alert(soma)
+        let ano = prompt("Digite o ano: ")
+        
+        if(ano = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)){
+            alert("O ano é bissexto")
+        } else {
+            alert("O ano não é bissexto")
+        }
 
     </script>
 
